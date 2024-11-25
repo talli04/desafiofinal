@@ -1,0 +1,28 @@
+.contatosFooter{
+    background-color:#005695;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    color: #fff;
+
+    nav{
+        width: 20%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.copyright{
+    background-color: #232020;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
