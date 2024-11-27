@@ -1,0 +1,28 @@
+.livrosDoados{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    align-items: center;
+    border: solid red;
+    flex-direction: column;
+
+    h2{
+        display: flex;
+        border: solid red;
+        padding-top: 2%;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    nav{
+        border: 3px solid #005695;
+        border-radius: 7px;
+        display: flex;
+       width: 20%;
+       height: 20vh;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+}
