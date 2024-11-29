@@ -7,7 +7,7 @@ export default function LivrosDoados(){
             <h2>Livros Doados</h2>
         <nav>
             <a href=""><img src={livro} alt="" /></a>
-            <p>O protagonista</p>
+            <h3>O protagonista</h3>
             <p>Susanne Andrade</p>
             <p>Ficção</p>
         </nav>
