@@ -1,9 +1,8 @@
-.livrosDoados{
+.livrosDoadosSection{
     display: flex;
-    height: 75vh;
+    height: 70vh;
     width: 100%;
     align-items: center;
-    border: solid red;
     flex-direction: column;
 
     h2{
@@ -12,6 +11,7 @@
         padding-top: 2%;
         align-items: center;
         justify-content: space-around;
+font-size: 32px;
         
     }
 
