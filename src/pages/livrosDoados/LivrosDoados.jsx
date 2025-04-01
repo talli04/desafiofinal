@@ -1,7 +1,16 @@
 import livroProtagonista from '../../assets/livroProtagonista.png'
 import s from './livrosDoados.module.scss'
+import { useState } from 'react'
+import axios from 'axios'
 
 export default function LivrosDoados(){
+    
+    const [livros,setLivros] = useState([])
+
+    const getLivros = async()=>{
+        const resposta = await axios.get()
+    }
+    
     return(
         <section className={s.livrosDoadosSection}>
             <h2>Livros Doados</h2>

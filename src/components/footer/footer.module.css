@@ -1,0 +1,42 @@
+.contatosFooter {
+  background-color: #005695;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  color: #fff;
+}
+.contatosFooter nav {
+  width: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.contatosFooter nav img {
+  width: 100%;
+}
+
+.copyright {
+  background-color: #232020;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media (max-width: 780px) {
+  .contatosFooter {
+    flex-direction: column;
+  }
+  .contatosFooter nav {
+    width: 60%;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  .copyright p {
+    width: 60%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.module.css.map */
