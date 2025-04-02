@@ -11,6 +11,9 @@
 }
 
 .containerCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 95%;
     height: 60vh;
 
@@ -25,7 +28,7 @@
         justify-content: space-evenly;
 
         img{
-            width: 40%;
+            height: 10vh;
         }
 
         div {
