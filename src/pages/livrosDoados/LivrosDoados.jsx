@@ -8,7 +8,7 @@ export default function LivrosDoados(){
     const [livros,setLivros] = useState([])
 
     const getLivros = async()=>{
-        const resposta = await axios.get("https://api-n76r.onrender.com/livros")
+        const resposta = await axios.get("https://api-7k1y.onrender.com/livros")
         setLivros(resposta.data)
     }
     getLivros()
