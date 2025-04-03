@@ -14,7 +14,7 @@ export default function LivrosDoados(){
     getLivros()
 
     useEffect(()=>{
-        alert("executei")
+        
     },[])
     
     
@@ -25,8 +25,10 @@ export default function LivrosDoados(){
                 {livros.map((item)=>(
                     <section>
                         <div>
-                        <h3>{item.titulo}</h3>
                         <img src={item.image_url} alt={item.titulo} />
+                        <h3>{item.titulo}</h3>
+                        <p>{item.autor}</p>
+                        <p>{item.categoria}</p>
                         </div>
                     </section>
                 ))}
